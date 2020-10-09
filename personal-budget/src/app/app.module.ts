@@ -10,8 +10,11 @@ import { FooterComponent } from './footer/footer.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ArticleComponent } from './article/article.component';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
 import { P404Component } from './p404/p404.component';
+import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
+
 
 @NgModule({
   declarations: [
@@ -22,8 +25,10 @@ import { P404Component } from './p404/p404.component';
     HomepageComponent,
     ArticleComponent,
     AboutComponent,
+    ContactComponent,
     LoginComponent,
-    P404Component
+    P404Component,
+    BreadcrumbsComponent,
   ],
   imports: [
     BrowserModule,
